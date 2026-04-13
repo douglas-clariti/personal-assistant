@@ -1,0 +1,71 @@
+# ============================================================
+# Daily Summaries — Configuration
+# ============================================================
+# Edit this file to change how your daily summaries work.
+# After saving, the next scheduled run will pick up changes.
+# Re-run the setup wizard: "Run the setup skill"
+# ============================================================
+
+config_version: 1
+
+# --- Skills repo (public) ---
+skills_repo_path: "/Users/mendesbarreto/Git/clariti/daily-summaries"
+
+# --- Storage ---
+storage:
+  mode: "github"
+  remote_url: "https://github.com/mendesbarreto/my-daily-journal"
+
+# --- Your identity ---
+user:
+  full_name: "mendesbarreto"
+  timezone: "America/Toronto"
+  file_slug: "mendesbarreto"
+  slack_user_id: "U0ARADKAGAK"
+
+# --- Google Drive (local sync via Google Drive for Desktop) ---
+google_drive:
+  local_path: ""
+
+# --- Output copies ---
+outputs:
+  google_drive_copy:
+    enabled: false
+    path: ""
+
+# --- Schedule ---
+schedule:
+  cron: "3 17 * * 1-5"
+  rollup_day: "friday"
+
+# --- Summary format preferences ---
+format:
+  sections:
+    summary: true
+    decisions_and_rationale: true
+    open_loops: true
+    blockers: true
+    next_steps: true
+    transcript_source: true
+  bullet_target: "5-15"
+  yaml_frontmatter: true
+
+# --- Cross-day context ---
+context:
+  load_previous_day: true
+  lookback_days: 1
+
+# --- Data source rules ---
+data_sources:
+  google_calendar:
+    enabled: true
+  gmail:
+    enabled: true
+    action_only: true
+    include_flagged: true
+  slack:
+    enabled: true
+    sent_only: true
+    include_tagged: true
+  google_drive:
+    enabled: true
