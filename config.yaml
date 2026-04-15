@@ -14,13 +14,13 @@ skills_repo_path: "/Users/mendesbarreto/Git/clariti/daily-summaries"
 # --- Storage ---
 storage:
   mode: "github"
-  remote_url: "https://github.com/mendesbarreto/my-daily-journal"
+  remote_url: "https://github.com/douglas-clariti/personal-assistent"
 
 # --- Your identity ---
 user:
-  full_name: "mendesbarreto"
+  full_name: "douglas-clariti"
   timezone: "America/Toronto"
-  file_slug: "mendesbarreto"
+  file_slug: "douglas-clariti"
   slack_user_id: "U0ARADKAGAK"
 
 # --- Google Drive (local sync via Google Drive for Desktop) ---
