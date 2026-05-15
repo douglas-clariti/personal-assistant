@@ -33,6 +33,8 @@ Sprint 1 Friday with three How Track team meetings: a 1:1 bmad sync with Justin 
 - Updated and merged `_bmad-output/primers/weekly-review-2026-05-15.html` to main in the super-bmad repo; sent the HTML directly to Justin LaBrash via DM when his Claude Code session crashed.
 - Shared the `super-bmad/docs/compliance/workflow.md` link with Justin LaBrash and instructed him to create `_bmad-output/primers/imgs` folder and reference the Workflow Studio building permit canvas screenshot from there in the HTML.
 - Agreed to move sprint planning up at 12:30 PM; was available at 12:35 PM while Justin finished the "what track" demo.
+- Agreed with Justin LaBrash via DM to discuss the compliance agent (slide 4 of the weekly review) after merging the primer; Justin confirmed ("ok cool").
+- Exchanged DMs with Colin John referencing a QA-intensive week and running multiple AI tests; noted "I think I will need the increase" (context of "increase" not captured).
 - Flagged project-surf PR #37 comment (`#issuecomment-4463509377`) to Justin LaBrash at 4:51 PM via DM; Justin decided to close PR #37 and opened PR #38 for more specific workflow definition.
 
 ## Decisions & Rationale
@@ -59,7 +61,7 @@ Sprint 1 Friday with three How Track team meetings: a 1:1 bmad sync with Justin 
 
 ## Transcript Source (Cleaned)
 
-Today was a three-meeting Sprint 1 Friday for the Clariti How Track team. The day opened with a 30-minute 1:1 sync between Douglas and Justin LaBrash (organizer) labeled "Douglas / Justin [bmad]" on Google Meet, 10:30–11:00 AM EDT; no transcript was linked. In the lead-up to that call, Douglas had confirmed availability ("yes / just send the link") and Justin shared the Google Meet link along with a reference to the `weekly-review-2026-05-15.html` presentation in the super-bmad repo.
+Today was a three-meeting Sprint 1 Friday for the Clariti How Track team. The day opened with a 30-minute 1:1 sync between Douglas and Justin LaBrash (organizer) labeled "Douglas / Justin [bmad]" on Google Meet, 10:30–11:00 AM EDT; no transcript was linked. In the lead-up to that call, Douglas had confirmed availability ("yes / just send the link") and Justin shared the Google Meet link along with a reference to the `weekly-review-2026-05-15.html` presentation in the super-bmad repo. Douglas also had a brief DM exchange with Colin John today referencing a QA-intensive week requiring multiple AI tests, and mentioning needing "the increase" (specific context not captured in search results).
 
 After the bmad sync, Douglas and Justin continued in DM. Justin asked for the full super-bmad compliance diagram; Douglas shared the `super-bmad/docs/compliance/workflow.md` link. Justin suggested Douglas handle the update; after playful back-and-forth ("you will do this one?" / "if yes I will let you take care ahahah" / Justin: "I think you're better to do it!"), Douglas confirmed ("Perfect") and began working on a simplified version. He sent a revised diagram image (~11:19 AM) and Justin confirmed it was great. Douglas then updated and merged `_bmad-output/primers/weekly-review-2026-05-15.html` to the super-bmad main branch by ~11:50 AM ("done"), telling Justin to pull and review it. When Justin's Claude Code session crashed, Douglas sent the HTML file directly via DM. Douglas also instructed Justin to create `_bmad-output/primers/imgs/` and store the Workflow Studio building permit workflow canvas screenshot there for the HTML to reference.
 
@@ -67,6 +69,6 @@ At noon, the How Track Weekly Review took place on Google Meet (organizer: Justi
 
 At 12:30 PM, Justin asked if sprint planning should be moved up; Douglas agreed ("yes"). Douglas was free at 12:35 PM but Justin was still in the "what track" demo and said he'd ping when done. The Sprint planning meeting ran 1:00–1:30 PM EDT with Justin LaBrash (organizer), Douglas Mendes, and Samuel Couture; no transcript was linked.
 
-At 4:51 PM, Douglas sent Justin a "headup" with a link to a comment on project-surf PR #37 (`#issuecomment-4463509377`). Justin responded that he was going to close that PR and shared a new PR #38 for more specific workflow definition.
+After the primer work wrapped, Justin proposed discussing the compliance agent (slide 4 of the weekly review presentation) and Douglas agreed ("K"). At 4:51 PM, Douglas sent Justin a "headup" with a link to a comment on project-surf PR #37 (`#issuecomment-4463509377`). Justin responded that he was going to close that PR and shared a new PR #38 for more specific workflow definition.
 
 No outbound emails were sent today. Google Drive is not configured (local_path is empty in config.yaml).
