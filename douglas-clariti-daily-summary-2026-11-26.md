@@ -34,7 +34,7 @@ tags:
 - Douglas shared project-surf PR #5674 with Simone Giacomel, noting the coding agent's misbehavior there.
 - Douglas responded to a Sentry alert in #cdi-alerts-sentry-backoffice ("On it").
 - Douglas asked Tasmia Shefa (Mia) to test the fix again by DM.
-- Douglas was locked out of his Google account and worked with Marnix Faes and Colin John to reset the password.
+- Douglas was locked out of their Google account and worked with Marnix Faes and Colin John to reset the password.
 
 ## Decisions & Rationale
 - **Remove the legacy-role check from the reviewer list and the Assign to Yourself write path**: valid staff accounts that still had the old citizen role were filtered out or rejected with a 403; OpenFGA permission, active staff status, department membership and reviewer qualification checks still apply.
